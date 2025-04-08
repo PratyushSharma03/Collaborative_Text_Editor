@@ -4,6 +4,12 @@ A real-time collaborative text editor built using **React**, **Node.js**, **Expr
 
 ---
 
+## 🎥 Demo Video
+
+▶️ [Click here to watch the project demo](https://drive.google.com/file/d/10CloV3ZV5v178ceif4s1BCYP_eBBASQa/view?usp=sharing)
+
+---
+
 ## 🚀 Tech Stack
 
 - ⚛️ **React** – Frontend with Quill rich text editor  
@@ -12,12 +18,6 @@ A real-time collaborative text editor built using **React**, **Node.js**, **Expr
 - 🧩 **Socket.IO** – Real-time communication  
 - 🍃 **MongoDB** – Document storage with Mongoose  
 - 🔧 **Node.js** – Runtime environment  
-
----
-
-## 🎥 Demo Video
-
-▶️ [Click here to watch the project demo](https://drive.google.com/file/d/10CloV3ZV5v178ceif4s1BCYP_eBBASQa/view?usp=sharing)
 
 ---
 
