@@ -1,6 +1,6 @@
 # 📝 Collaborative Text Editor
 
-A real-time collaborative text editor built using **React**, **Node.js**, **Express.js**,**Quill.js**, **MongoDB**, and **Socket.IO**. It allows multiple users to edit the same document at once with live syncing and auto-saving features.
+A real-time collaborative text editor built using **React**, **Node.js**, **Express**,**Quill.js**, **MongoDB**, and **Socket.IO**. It allows multiple users to edit the same document at once with live syncing and auto-saving features.
 
 ---
 
