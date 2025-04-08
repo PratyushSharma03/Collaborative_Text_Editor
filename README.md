@@ -1,34 +1,60 @@
-# Collaborative Word Document
+<h1 align="center">📝 Collaborative Text Editor</h1>
 
-A real-time collaborative word document editor built with React, Express, Socket.IO, and MongoDB. This project allows multiple users to edit the same document in real-time, with changes instantly reflected across all users' screens. The application uses MongoDB for storing and retrieving the document data and Socket.IO for real-time updates.
+<p align="center">
+  A real-time collaborative <strong>text editor</strong> built with <strong>React</strong>, <strong>Express</strong>, <strong>Socket.IO</strong>, and <strong>MongoDB</strong>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/PratyushSharma03/Collaborative_Word_Document?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/PratyushSharma03/Collaborative_Word_Document?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/PratyushSharma03/Collaborative_Word_Document?style=for-the-badge" />
+</p>
 
 ---
 
-## 📽️ Demo Video
+## 📽️ Demo
 
-[![Watch the demo](https://img.shields.io/badge/Watch-Demo%20Video-red?logo=google-drive&style=for-the-badge)](https://drive.google.com/file/d/10CloV3ZV5v178ceif4s1BCYP_eBBASQa/view?usp=sharing)
+[![▶️ Watch Video Demo](https://img.shields.io/badge/▶️%20Watch%20Video-Demo-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/10CloV3ZV5v178ceif4s1BCYP_eBBASQa/view?usp=sharing)
 
-👉 Click the badge above to watch a short demo of the project in action!
+> 📌 Click to see the real-time collaborative editing in action!
 
 ---
 
-## Features
+## 🚀 Features
 
-- **Real-time Collaboration:** Multiple users can edit the same document at the same time.
-- **Instant Updates:** Changes are immediately reflected across all connected users.
-- **Document Storage:** All changes are saved to MongoDB, ensuring document persistence.
-- **User Count:** Displays the number of active collaborators in the document.
-- **Auto-Save:** Document is automatically saved to the backend every 2 seconds.
+- 🔄 **Real-time Editing** – See changes from all users as they happen
+- 💾 **Auto-Save** – Saves document content every 2 seconds
+- 📡 **WebSocket Syncing** – Uses Socket.IO for live updates
+- 📁 **MongoDB Storage** – Document persistence on every save
+- 👥 **User Count Display** – Shows number of active collaborators
+- 📝 **Rich Text Support** – Powered by [Quill](https://quilljs.com/)
 
-## Installation
+---
+
+## ⚙️ Tech Stack
+
+| Frontend | Backend | Database | Real-time |
+|----------|---------|----------|-----------|
+| React    | Express | MongoDB (via Mongoose) | Socket.IO |
+
+---
+
+## 🧰 Installation & Setup
 
 ### Prerequisites
-Ensure you have the following installed:
 - [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/) (or use MongoDB Atlas for cloud storage)
+- [MongoDB](https://www.mongodb.com/) (Local or Atlas)
 
 ### Steps to Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PratyushSharma03/Collaborative_Word_Document.git
+```bash
+# 1. Clone the repository
+git clone https://github.com/PratyushSharma03/Collaborative_Word_Document.git
+
+# 2. Run the backend and frontend (from their respective folders)
+cd server
+node server.js
+
+cd ../client
+npm install
+npm start
