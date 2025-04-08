@@ -1,4 +1,4 @@
-# 📝 Collaborative Word Document
+# 📝 Collaborative Text Editor
 
 A **real-time collaborative word document editor** built with **React**, **Express**, **Socket.IO**, and **MongoDB**. This project allows multiple users to edit the same document simultaneously, with instant updates and persistent document storage.
 
